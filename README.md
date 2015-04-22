@@ -8,14 +8,21 @@ amount - Invoice total
 refunds - Invoices IDs and amounts which are canceled by this invoice
 
 {id:1,amount:100.00,refunds:[]}
+
 {id:2,amount:5.00,refunds:[]}
-{id:3,amount:12.00,refunds:[{id:1, refunded_amount:50.00}, {id:2, refunded_amount:5.00}]}
+
+{id:3,amount:12.00,refunds:[{id:1, refundedAmount : 50.00}, {id:2, refundedAmount:5.00}]}
 
 +100.00
+
 +5.00
+
 +12.00
+
 -50.00
+
 -5.00
+
 -----------
 62.00
 
